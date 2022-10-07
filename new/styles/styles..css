@@ -1,0 +1,13 @@
+nav, footer {
+   background-color: rgb(96, 144, 184);
+   color: white;
+   padding: 10px;
+}
+footer p {
+   font-size: 20px;
+   margin: 20px auto;
+}
+a:hover {
+   background-color: white;
+   color: rgb(71, 137, 194);
+}
