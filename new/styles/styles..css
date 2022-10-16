@@ -1,13 +1,30 @@
-nav, footer {
-   background-color: rgb(96, 144, 184);
-   color: white;
-   padding: 10px;
+
+#brother {
+   max-width: 1600px;
+   margin: 0 auto;
+   text-align: center;
 }
-footer p {
-   font-size: 20px;
-   margin: 20px auto;
+#img_principe {
+   width: 100%;
 }
-a:hover {
-   background-color: white;
-   color: rgb(71, 137, 194);
+.msg {
+   text-align: center;
+   background-color: #f1faee;
+   color: black;
+}
+#desk {
+   width: 10%;
+}
+#ice {
+   width: 10%;
+}
+#person {
+   width: 10%;
+}
+.msg img {
+   background-color: rgb(77, 75, 75);
+   color: #696972;
+}
+footer p a:hover {
+   text-decoration: underline;
 }
