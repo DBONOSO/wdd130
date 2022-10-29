@@ -11,7 +11,6 @@
   height: 725px;
   background-color: rgb(106, 167, 247);
   color: rgb(187, 216, 216);
-  
 }
 
 body {
@@ -75,11 +74,15 @@ header {
   font-family: grape nuts;
   font-size:  3em;
   margin-top: 10px;
+  background-color: #457b9d;
+  opacity: 90%;
 
 }
 
 #hero-msg h4, #hero-msg h1 {
   text-align: center;
+  background-color: #84939c;
+  opacity: 90%;
 }
 
 .button-box {
@@ -275,7 +278,7 @@ main {
 }
 
 #background {
-  grid-column: 2/7;
+  grid-column: 1/11;
   grid-row: 4/9;
 }
 
