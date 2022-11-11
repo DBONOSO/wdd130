@@ -1,40 +1,40 @@
+.container{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 0px;
+   justify-content: center;
+}
 .grid-container{
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr;
    grid-gap: 0px;
 }
 
 #icon1 {
+   width: 100%;
+   grid-column: 0/2;
    width: 1400px;
-   grid-column: 1/2;
-   grid-row: 1/3;
+   justify-content: center;
 }
-
-#icon2 {
-   width: 2000px;
-   grid-column: 2/3;
-   grid-row: 1/3;
-}
-
-h1 {
-   grid-column: 1/3;
-   font-size: 500px;
-   grid-row: 1/3;
-   z-index: 1;
+h3 {
+   font-size: 100px;
+      align-self: 0;
+      text-align: center;
+   }
+h2 {
+   font-size: 200px;
    align-self: 0;
    text-align: center;
 }
-
-#text2{
-   
+p{
+      font-size: 100px;
+      align-self: 0;
+      text-align: center;
 }
-aside {
-   font-size : 200px;
-   color: red;
-   width: 100%;
-   grid-column: 2/3;
-   grid-row: 2/3;
-   z-index: 1;
-   text-align:center;
-   
+
+.footer.one{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   vertical-align: super;
+   font-size: smaller;
 }
