@@ -10,7 +10,6 @@ body {
 
 
 nav {
- background-color: 0;
  line-height: 4em;
  text-align: center;
  font-size: 1.5em;
@@ -42,7 +41,7 @@ nav {
 
 #logo_link {
  display: flex;
- margin-left: 111%;
+ margin-left: 110%;
 }
 
 .button-box .book {
@@ -52,7 +51,6 @@ nav {
  padding: 7px 40px;
  margin-top: 200px;
  border-radius: 40px;
- box-sizing: 10px;
  color: aliceblue;
 }
 
@@ -100,7 +98,6 @@ nav {
  display: grid;
  grid-template-columns: 1fr  1fr;
  grid-template-rows: 1fr 1fr;
- margin-left: 0%;
 }
 
 
@@ -114,25 +111,25 @@ nav {
 
 }
 
-.shirt-two {
+#shirt-two {
  grid-column: 1/2;
  grid-row: 1/2;
  margin-top: 5%;
- margin-left: -50%;
+ margin-left: -55%;
 }
 
-.nikes {
+#nikes {
  grid-column: 2/3;
  grid-row: 1/2;
  margin-top: -40%;
- margin-left: 12%;
+ margin-left: 9%;
 }
 
-.good {
+#good {
  grid-column: 3/4;
  grid-row: 1/2;
  margin-top: -40%;
- margin-left: 75%;
+ margin-left: 72%;
 }
 
 
@@ -153,14 +150,14 @@ footer {
  margin-left: -100%;
 }
 
-.text_footer {
+#text_footer {
  grid-column: 1/3;
  grid-row: 1/3;
  margin-top: 7%;
  margin-left: 300px;
 }
 
-.logo_footer {
+#logo_footer {
  grid-column: 1/2;
  grid-row: 1/3;
  margin-top: 90px;
